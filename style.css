@@ -67,12 +67,22 @@ body{
     color: grey;
 }
 
+.right{
+    margin: 16px 0;
+}
+
 .header{
     display:flex;
     justify-content: space-between;
-    gap: 4px;
+   background-color: rgb(42, 40, 40);
 }
 
 .header > *{
     padding: 20px;
+    
+}
+
+.Spotifyplaylists{
+    padding: 16px;
+
 }
