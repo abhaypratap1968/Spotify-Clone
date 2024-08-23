@@ -86,3 +86,42 @@ body{
     padding: 16px;
 
 }
+.cardContainer{
+    margin: 30px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+ .card{
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: grey;
+}
+
+.card > *{
+    padding-top: 3px;
+}
+
+
+.card img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.play{
+    width: 28px;
+    height: 28px;
+    background-color: #92d087;
+    border-radius: 50%;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 168px;
+    right: 17px;
+    opacity: 0;
+    transition: all 1 ease ease-out;
+}
