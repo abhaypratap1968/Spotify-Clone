@@ -54,7 +54,7 @@ body{
 }
 
 .library {
-    min-height: 80vh;
+    min-height: 77vh;
     position: relative;
 }
 
@@ -64,7 +64,7 @@ body{
     color: grey;
     gap: 10px;
     position: absolute;
-    bottom: 0;
+    bottom: 15px;
 }
 
 .footer a{
@@ -133,13 +133,26 @@ body{
     opacity: 0;
     transition: all 1 ease ease-out;
 }
+.signupbtn{
+    cursor: pointer;
+    border: 1px rgb(42, 40, 40);
+    background-color: transparent;
+  
+    width: 70px;
+    color: #e8eaec;
+    
+    /* box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6); */
+}
 .signupbtn:hover {
-    font-size: 17px;
-    color: white
+  font-size: 14px;
+    color: white;
+    
+    
+    
 }
 .loginbtn{
     background-color: white;
-    border-radius: 21px;   
+    border-radius: 21px ;   
     color: black;   
     padding: 10px;
     width: 79px;
